@@ -1,3 +1,7 @@
 .claude/
 claude-skills-script.md
+claude-skills-script-ALAN.txt
+sb-skill-backup/
+*.transcript.txt
+reference-board-ascii.txt
 .DS_Store
