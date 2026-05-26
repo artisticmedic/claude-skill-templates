@@ -28,10 +28,10 @@ allowed-tools: Read, Grep, Glob, Bash
 - REQUIRED FIELDS: ...
 
 ## Check procedure
-<!-- inspect → report each violation → verdict. don't let violations pass silently -->
-1. Inspect the target against each rule
+<!-- deterministic checks belong in a SCRIPT (≈100% reliable), not the model's head -->
+1. Run [`scripts/check.sh <target>`](scripts/check.sh) — the deterministic gate
 2. For each violation → report `location: severity: problem → fix`
-3. Pass/fail verdict
+3. Pass/fail verdict (non-zero exit = blocked)
 
 ## On failure
 <!-- decide the behavior: block, warn, or auto-fix — and say which -->

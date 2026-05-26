@@ -25,10 +25,8 @@ allowed-tools: Read, Grep, Glob
 - Rule / token / pattern 2
 
 ## Reference tables
-<!-- lookup tables are why a domain skill earns its keep -->
-| Thing | Use | Don't use |
-|---|---|---|
-| ... | ... | ... |
+<!-- big lookup tables don't belong in SKILL.md — they'd load every session -->
+- Full tables live in [`references/conventions.md`](references/conventions.md) — loaded ON DEMAND when this skill fires (progressive disclosure)
 
 ## Notes
 <!-- point to the source of truth so this stays current -->
